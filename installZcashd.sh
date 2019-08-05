@@ -9,7 +9,7 @@ sudo apt-get install \
 
 # zcashBitcore
 cd
-git clone -b v2.0.2-insight-explorer https://github.com/TheTrunk/zcash-patched-for-explorer.git zcashInsight
+git clone -b v2.0.2-insight-explorer https://github.com/usdfork/zcash-patched-for-explorer.git zcashInsight
 cd zcashInsight
 ./zcutil/fetch-params.sh
 ./zcutil/build.sh -j$(nproc)
