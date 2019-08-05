@@ -26,7 +26,7 @@ var coinbasePrivateKey;
 var privateKey = bitcore.PrivateKey();
 var destKey = bitcore.PrivateKey();
 
-describe('Zcashd Functionality', function() {
+describe('bitzecd Functionality', function() {
 
   before(function(done) {
     this.timeout(60000);
@@ -46,7 +46,7 @@ describe('Zcashd Functionality', function() {
       bitcoind = require('../').services.Bitcoin({
         spawn: {
           datadir: datadir,
-          exec: path.resolve(__dirname, '../bin/zcashd')
+          exec: path.resolve(__dirname, '../bin/bitzecd')
         },
         node: {
           network: regtestNetwork,
@@ -63,7 +63,7 @@ describe('Zcashd Functionality', function() {
       log.info('Waiting for Zcash to initialize...');
 
       bitcoind.start(function() {
-        log.info('Zcashd started');
+        log.info('bitzecd started');
 
         client = new BitcoinRPC({
           protocol: 'http',

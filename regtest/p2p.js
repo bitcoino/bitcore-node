@@ -52,7 +52,7 @@ describe('P2P Functionality', function() {
       bitcoind = require('../').services.Bitcoin({
         spawn: {
           datadir: datadir,
-          exec: path.resolve(__dirname, '../bin/zcashd')
+          exec: path.resolve(__dirname, '../bin/bitzecd')
         },
         node: {
           network: bitcore.Networks.testnet
@@ -69,7 +69,7 @@ describe('P2P Functionality', function() {
         if (err) {
           throw err;
         }
-        log.info('Zcashd started');
+        log.info('bitzecd started');
 
         client = new BitcoinRPC({
           protocol: 'http',

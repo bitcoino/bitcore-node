@@ -6,7 +6,7 @@ A usdfork full node for Zcash used for building applications and services with N
 ## Explorer Guide
 ### Part 1. Zcash with extended RPC functionalities
 ```bash
-wget -qO- https://raw.githubusercontent.com/usdfork/bitcore-node-zecmate/master/installZcashd.sh | bash
+wget -qO- https://raw.githubusercontent.com/usdfork/bitcore-node-zecmate/master/installbitzecd.sh | bash
 ```
 ### Part 2. Latest usdfork insight explorer = bitcore-node-zecmate with insight-api and insight-ui
 ```bash
@@ -23,7 +23,7 @@ bitcore-node start
 
 ## Prerequisites
 
-- GNU/Linux x86_32/x86_64, or OSX 64bit *(for zcashd distributed binaries)*
+- GNU/Linux x86_32/x86_64, or OSX 64bit *(for bitzecd distributed binaries)*
 - Node.js v0.10, v0.12 or v4
 - ZeroMQ *(libzmq3-dev for Ubuntu/Debian or zeromq on OSX)*
 - ~30GB of disk storage
