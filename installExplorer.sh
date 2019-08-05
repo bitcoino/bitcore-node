@@ -18,7 +18,7 @@ sudo service mongod start
 
 #bitcore-node-zecmate
 cd
-git clone https://github.com/usdfork/bitcore-node-zecmate
+git clone  -b zcash https://github.com/usdfork/bitcore-node-zecmate
 cd bitcore-node-zecmate
 npm install
 cd bin
