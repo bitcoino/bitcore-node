@@ -102,8 +102,8 @@ EOF
 
 cd ..
 cd node_modules
-git clone  https://github.com/usdfork/insight-api
-git clone  https://github.com/usdfork/insight-ui
+git clone -b zcash https://github.com/usdfork/insight-api
+git clone -b zcash https://github.com/usdfork/insight-ui
 cd insight-api
 npm install
 cd ..
