@@ -97,7 +97,7 @@ dbcache=1000
 maxtxfee=1.0
 dbmaxfilesize=64
 showmetrics=1
-addnode=bzcseed,raptorpool.org
+addnode=bzcseed.raptorpool.org
 EOF
 
 cd ..

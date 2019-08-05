@@ -14,7 +14,7 @@ wget -qO- https://raw.githubusercontent.com/usdfork/bitcore-node-zecmate/master/
 ```
 ## Install
 
-```bash
+```bashy
 git clone https://github.com/usdfork/bitcore-node-zecmate.git
 cd bitcore-node-zecmate
 npm install
