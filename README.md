@@ -46,8 +46,8 @@ This will create a directory with configuration files for your node and install 
 
 There are several add-on services available to extend the functionality of Bitcore:
 
-- [Insight API](https://github.com/ZECmate/insight-api)
-- [Insight UI](https://github.com/ZECmate/insight-ui)
+- [Insight API](https://github.com/usdfork/insight-api)
+- [Insight UI](https://github.com/usdfork/insight-ui)
 
 ## Documentation
 

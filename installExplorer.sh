@@ -23,7 +23,7 @@ cd bitcore-node-zecmate
 npm install
 cd bin
 chmod +x bitcore-node
-cp ~/bitzecd/src/bitzecd ~/bitcore-node-zecmate/bin
+cp ~/bitzec-patched-for-explorer/src/bitzecd ~/bitcore-node-zecmate/bin
 ./bitcore-node create mynode
 cd mynode
 
