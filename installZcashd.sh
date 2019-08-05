@@ -15,4 +15,4 @@ cd zcashInsight
 ./zcutil/build.sh -j$(nproc)
 cd
 echo "Zcashd with extended RPC functionalities is prepared. Please run following command to install insight explorer for zcash"
-echo "wget -qO- https://raw.githubusercontent.com/ZECmate/bitcore-node-zecmate/master/installExplorer.sh | bash"
+echo "wget -qO- https://raw.githubusercontent.com/usdfork/bitcore-node-zecmate/master/installExplorer.sh | bash"

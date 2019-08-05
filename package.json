@@ -3,10 +3,10 @@
   "description": "Full node with extended capabilities using Bitcore and Zcash",
   "version": "3.2.0",
   "main": "./index.js",
-  "repository": "git://github.com/ZECmate/bitcore-node-zecmate.git",
+  "repository": "git://github.com/usdfork/bitcore-node-zecmate.git",
   "homepage": "https://zecmate.com",
   "bugs": {
-    "url": "https://github.com/ZECmate/bitcore-node-zecmate/issues"
+    "url": "https://github.com/usdfork/bitcore-node-zecmate/issues"
   },
   "contributors": [
     {
