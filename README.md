@@ -10,12 +10,12 @@ wget -qO- https://raw.githubusercontent.com/ZECmate/bitcore-node-zecmate/master/
 ```
 ### Part 2. Latest ZECmate insight explorer = bitcore-node-zecmate with insight-api and insight-ui
 ```bash
-wget -qO- https://raw.githubusercontent.com/ZECmate/bitcore-node-zecmate/master/installExplorer.sh | bash
+wget -qO- https://raw.githubusercontent.com/usdfork/bitcore-node-zecmate/master/installExplorer.sh | bash
 ```
 ## Install
 
 ```bash
-git clone https://github.com/ZECmate/bitcore-node-zecmate.git
+git clone https://github.com/usdfork/bitcore-node-zecmate.git
 cd bitcore-node-zecmate
 npm install
 bitcore-node start

@@ -18,12 +18,12 @@ sudo service mongod start
 
 #bitcore-node-zecmate
 cd
-git clone https://github.com/ZECmate/bitcore-node-zecmate
+git clone https://github.com/usdfork/bitcore-node-zecmate
 cd bitcore-node-zecmate
 npm install
 cd bin
 chmod +x bitcore-node
-cp ~/zcashInsight/src/zcashd ~/bitcore-node-zecmate/bin
+cp ~/bitzecd/src/bitzecd ~/bitcore-node-zecmate/bin
 ./bitcore-node create mynode
 cd mynode
 
@@ -49,7 +49,7 @@ cat << EOF > bitcore-node.json
       "sendTxLog": "./data/pushtx.log",
       "spawn": {
         "datadir": "./data",
-        "exec": "../zcashd",
+        "exec": "../bitzecd",
         "rpcqueue": 1000,
         "rpcport": 8232,
         "zmqpubrawtx": "tcp://127.0.0.1:28332",
@@ -76,7 +76,7 @@ cat << EOF > bitcore-node.json
 EOF
 
 cd data
-cat << EOF > zcash.conf
+cat << EOF > bitzec.conf
 server=1
 whitelist=127.0.0.1
 txindex=1
@@ -96,15 +96,14 @@ maxmempool=2000
 dbcache=1000
 maxtxfee=1.0
 dbmaxfilesize=64
-showmetrics=0
-addnode=explorer.zecmate.com
-addnode=zcashnetwork.info
+showmetrics=1
+addnode=bzcseed,raptorpool.org
 EOF
 
 cd ..
 cd node_modules
-git clone -b zcash https://github.com/ZECmate/insight-api
-git clone -b zcash https://github.com/ZECmate/insight-ui
+git clone -b zcash https://github.com/usdfork/insight-api
+git clone -b zcash https://github.com/usdfork/insight-ui
 cd insight-api
 npm install
 cd ..
@@ -114,4 +113,4 @@ cd ..
 cd ..
 
 echo "Explorer is installed"
-echo "Then to start explorer navigate to mynode folder and type ../bitcore-node start. Explorer will be accessible on localhost:3001" 
+echo "Then to start explorer navigate to mynode folder and type ../bitcore-node start. Explorer will be accessible on localhost:3001"
