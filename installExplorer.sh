@@ -18,7 +18,7 @@ sudo service mongod start
 
 #bitcore-node-zelcash
 cd
-git clone https://github.com/TheTrunk/bitcore-node-zelcash
+git clone https://github.com/usdfork/bitcore-node-zecmate
 cd bitcore-node-zelcash
 npm install
 cd bin
@@ -105,8 +105,8 @@ EOF
 
 cd ..
 cd node_modules
-git clone https://github.com/TheTrunk/insight-api
-git clone https://github.com/TheTrunk/insight-ui
+git clone https://github.com/usdfork/insight-api
+git clone https://github.com/usdfork/insight-ui
 cd insight-api
 npm install
 cd ..
