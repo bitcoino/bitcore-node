@@ -1,23 +1,21 @@
 Bitcore Node usdfork
 ============
 
-A usdfork full node for Zcash used for building applications and services with Node.js. A node is extensible and can be configured to run additional services. Additional services can be enabled to make a node more useful such as exposing new APIs, running a block explorer and wallet service.
+A bitcore full node for Bitzec used for building applications and services with Node.js. A node is extensible and can be configured to run additional services. Additional services can be enabled to make a node more useful such as exposing new APIs, running a block explorer and wallet service.
 
 ## Explorer Guide
-### Part 1. Zcash with extended RPC functionalities
+### Part 1. Bitzec with extended RPC functionalities
 ```bash
-wget -qO- https://raw.githubusercontent.com/usdfork/bitcore-node-zecmate/master/installbitzecd.sh | bash
+wget -qO- https://raw.githubusercontent.com/bitzec/bitcore-node/zcash/installbitzecd.sh | bash
 ```
-### Part 2. Latest usdfork insight explorer = bitcore-node-zecmate with insight-api and insight-ui
+### Part 2. Latest bitzec insight explorer = bitcore-node with insight-api and insight-ui
 ```bash
-wget -qO- https://raw.githubusercontent.com/usdfork/bitcore-node-zecmate/master/installExplorer.sh | bash
+wget -qO- https://raw.githubusercontent.com/bitzec/bitcore-node/zcash/installExplorer.sh | bash
 ```
-## Install
+## 
 
 ```bashy
-git clone https://github.com/usdfork/bitcore-node-zecmate.git
-cd bitcore-node-zecmate
-npm install
+
 bitcore-node start
 ```
 
