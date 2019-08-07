@@ -1,4 +1,4 @@
-Bitcore Node usdfork
+Bitcore Node bitzec
 ============
 
 A bitcore full node for Bitzec used for building applications and services with Node.js. A node is extensible and can be configured to run additional services. Additional services can be enabled to make a node more useful such as exposing new APIs, running a block explorer and wallet service.
