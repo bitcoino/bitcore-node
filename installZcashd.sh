@@ -9,10 +9,10 @@ sudo apt-get install \
 
 # zcashBitcore
 cd
-git clone -b v2.0.2-insight-explorer https://github.com/usdfork/zcash-patched-for-explorer.git zcashInsight
-cd zcashInsight
+git clone https://github.com/bitzec/bitzec-patched-for-explorer.git
+cd bitze-patched-for-explorer
 ./zcutil/fetch-params.sh
 ./zcutil/build.sh -j$(nproc)
 cd
-echo "bitzecd with extended RPC functionalities is prepared. Please run following command to install insight explorer for zcash"
+echo "bitzecd with extended RPC functionalities is prepared. Please run following command to install insight explorer for bitzec"
 echo "wget -qO- https://raw.githubusercontent.com/usdfork/bitcore-node-zecmate/master/installExplorer.sh | bash"
