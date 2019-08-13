@@ -10,7 +10,7 @@ sudo apt-get install \
 # zcashBitcore
 cd
 git clone https://github.com/bitzec/bitzec-patched-for-explorer.git
-cd bitze-patched-for-explorer
+cd bitzec-patched-for-explorer
 ./zcutil/fetch-params.sh
 ./zcutil/build.sh -j$(nproc)
 cd
