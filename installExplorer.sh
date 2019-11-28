@@ -76,7 +76,7 @@ cat << EOF > bitcore-node.json
 EOF
 
 cd data
-cat << EOF > zelcash.conf
+cat << EOF > zcash.conf
 server=1
 whitelist=127.0.0.1
 txindex=1
