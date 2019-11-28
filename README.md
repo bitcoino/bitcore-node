@@ -6,11 +6,11 @@ A bitcore full node for Bitzec used for building applications and services with 
 ## Explorer Guide
 ### Part 1. Bitzec with extended RPC functionalities
 ```bash
-wget -qO- https://raw.githubusercontent.com/bitzec/bitcore-node/zcash/installzcashd.sh | bash
+wget -qO- https://raw.githubusercontent.com/bitzec/bitcore-node/installzcashd.sh | bash
 ```
 ### Part 2. Latest bitzec insight explorer = bitcore-node with insight-api and insight-ui
 ```bash
-wget -qO- https://raw.githubusercontent.com/bitzec/bitcore-node/zcash/installExplorer.sh | bash
+wget -qO- https://raw.githubusercontent.com/bitzec/bitcore-node/installExplorer.sh | bash
 ```
 ## 
 
