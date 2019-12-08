@@ -15,4 +15,4 @@ cd bitzec-patched-for-explorer
 ./zcutil/build.sh -j$(nproc)
 cd
 echo "bitzecd with extended RPC functionalities is prepared. Please run following command to install insight explorer for bitzec"
-echo "wget -qO- https://raw.githubusercontent.com/usdfork/bitcore-node-zecmate/master/installExplorer.sh | bash"
+echo "wget -qO- https://raw.githubusercontent.com/bitzec/bitcore-node/master/installExplorer.sh | bash"
